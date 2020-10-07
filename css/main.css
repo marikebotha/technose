@@ -87,6 +87,143 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*-----------------base styles-----------*/
+
+   body{
+    font-family: 'Raleway', sans-serif;
+    color: #1f291c;
+    background: white;
+    width: 100%;
+    max-width: 1400px;
+   }
+
+   p{
+    font-size: 1.5em;
+   }
+
+   h1{
+    font-size: 3em;
+    text-transform: uppercase;
+   }
+
+   /*-----------------layout/grid-----------*/
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+   /*-----------------header-----------*/
+
+.logo-container{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-container{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h3 strong{
+  font-weight: bold;
+  color: #36492c;
+}
+
+nav ul li{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+
+
+
+   /*-----------------main-----------*/
+
+   /*-----------------hero area-----------*/
+
+   #hero .wrapper{
+    background: url(../img/single-leaf.png);
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 200px 20px 200px 20px;
+   }
+
+   #hero .wrapper h1{
+    color: white;
+    text-transform: unset;
+    font-size: 2em;
+   }
+
+   #hero .wrapper p{
+    color: white;
+   }
+
+   /*-------------about area--------------*/
+
+   #about .wrapper{
+    flex-flow: row wrap;
+    padding: 100px;
+   }
+
+   #about .wrapper p{
+    text-align: center;
+   }
+
+    /*-------------how it works area--------------*/
+
+    #how-it-works .wrapper{
+      background: url(../img/monster-leaves.png);
+      flex-flow: row wrap;
+      color: white;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    #how-it-works .wrapper h1{
+      width: 100%;
+      text-align: center;
+    }
+
+    .process-element{
+      margin-top: 50px;
+      display: flex;
+      width: 25%;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .process-element img{
+      width: 30%;
+    }
+
+  /*-------------footer--------------*/
+
+  footer .wrapper{
+    background: #8a987e;
+    flex-flow: row wrap;
+  }
+
+  footer .wrapper a{
+
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
