@@ -32,61 +32,78 @@
     <!-- ----------------START OF AUTHOR CODE ------------------------------->
   <!-- ----------------SERVICES PAGE ------------------------------------------>
   <header>
-    <div class = "wrapper"> <!--container element for header/menu area-->
+    <div class = "wrapper"> 
       <div class = "logo-container">
-        <img src = "../img/logo.png" alt = "technose"/>
+        <figure>
+          <a href="#">
+            <img src="../img/logo.png" alt="technose logo">
+          </a>
+        </figure>
         <h3>tech<strong>nose</strong></h3>
       </div>
-      <nav>
-        <ul>
-          <li><a href = "../index.html">home</a></li>
-          <li><a href = "index.html">services</a></li>
-          <li><a href = "../contact/index.html">contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href = "../index.html">home</a></li>
+            <li><a href = "index.html">services</a></li>
+            <li><a href = "../contact/index.html">contact</a></li>
+          </ul>
+        </nav> 
     </div>
   </header>
 
   <section id = "services">
     <div class = "wrapper">
       <h1>Our services</h1>
-      <div class = "service-element">
-        <!--add icon here-->
-        <p>Design and develop your website</p>
-      </div>
-      <div class = "service-element">
-        <!--add icon here-->
-        <p>Organise your web, domain and email hosting</p>
-      </div>
-      <div class = "service-element">
-        <!--add icon here-->
-        <p>Promote your website online</p>
-      </div>
-      <div class = "service-element">
-        <!--add icon here-->
-        <p>Maintain, update and troubleshoot your site</p>
+      <div class = "service-wrapper">
+        <div class = "service-element">
+          <figure>
+            <img src = "../img/leaf-icon.png" alt = "leaf icon"/>
+          </figure>
+          <p>Design and develop your website</p>
+        </div>
+        <div class = "service-element">
+          <figure>
+            <img src = "../img/leaf-icon.png" alt = "leaf icon"/>
+          </figure>
+          <p>Organise your web, domain and email hosting</p>
+        </div>
+        <div class = "service-element">
+          <figure>
+            <img src = "../img/leaf-icon.png" alt = "leaf icon"/>
+          </figure>
+          <p>Promote your website online</p>
+        </div>
+        <div class = "service-element">
+          <figure>
+            <img src = "../img/leaf-icon.png" alt = "leaf icon"/>
+          </figure>
+          <p>Maintain, update and troubleshoot your site</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section id = "fees">
     <div class = "wrapper">
-      <div class = "fee-element">
-        <h2>Simple website<br>R5500</h2>
-        <p>1 page website<br>Ideal for small businesses, wedding invitations etc.<br>Includes header, about, contact and footer section</p>
-      </div>
-      <div class = "fee-element">
-        <h2>Portfolio website<br>R10400</h2>
-        <p>Up to 5 pages<br>Includes home page, about page, contact page as well as a project portfolio for showcasing works<br>Features: embedded map, website contact form</p>
-      </div>
-      <div class = "fee-element">
-        <h2>Ecommerce store</h2>
-        <p>Contact us to bring your online store idea to life</p>
-        <p>(See www.xhibit.africa for an example of our work)</p>
-      </div>
-      <div class = "fee-element">
-        <h2>Custom</h2>
-        <p>If you have a crazy idea that does not fit into one of the above, feel free to contact us</p>
+      <h1>our fees</h1>
+      <div class = fees-wrapper>
+        <div class = "fee-element">
+          <h2>Simple website<br><em>R4900</em></h2>
+          <p>1 page website<br>Ideal for small businesses, wedding invitations etc.<br>Includes header, about, contact and footer section</p>
+        </div>
+        <div class = "fee-element">
+          <h2>Portfolio website<br><em>R9600</em></h2>
+          <p>Up to 5 pages<br>Includes home page, about page, contact page as well as a project portfolio for showcasing works<br>Features: embedded map, website contact form</p>
+        </div>
+        <div class = "fee-element">
+          <h2>Ecommerce store</h2>
+          <p>Contact us to bring your online store idea to life</p>
+          <p>(See <a href = "https://xhibit.africa" target = "_BLANK">Xhibit's website</a> for an example of our work)</p>
+        </div>
+        <div class = "fee-element">
+          <h2>Custom</h2>
+          <p>If you have a crazy idea that does not fit into one of the above, feel free to contact us</p>
+        </div>
       </div>
       <p>Fine print: All prices provided above are estimates.  We reserve the right to offer a different fee based on the project scope (but we try not to). All fees listed above pertain to our web design and development services only.</p>
     </div>
@@ -94,11 +111,17 @@
 
   <footer>
     <div class = "wrapper">
-      <img src = "../img/green-logo.png" alt = "logo"/>
-      <h2>This is the proud property of <em><strong>tech</strong>nose</em></h2>
-      <a href = "mailto:marike.mx@gmail.com">marike.mx@gmail.com</a>
-      <a href = "index.html">back to top</a>
-      <div>Icons made by <a href="https://www.flaticon.local/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" title="Flaticon">www.flaticon.local</a></div>
+      <div class = "logo-container">
+        <figure>
+            <img src="../img/green-logo.png" alt="technose logo">
+        </figure>
+        <h2>This is the proud property of <em>tech<strong>nose</strong></em></h2>
+      </div>
+      <div class = text-container>
+        <p><a href = "mailto:marike.mx@gmail.com">marike.mx@gmail.com</a>  |  <a href = "index.html">back to top</a></p>
+        <div>Icons made by <a href="https://www.flaticon.local/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" title="Flaticon">www.flaticon.local</a></div>
+      </div>
+      </div>
     </div>
   </footer>
 
