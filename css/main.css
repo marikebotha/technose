@@ -268,7 +268,7 @@ footer h2 em{
 
 #hero {
   color: white;
-  background: url(../img/single-leaf.jpg);
+  background: url(../img/single-leaf.png);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -303,7 +303,7 @@ footer h2 em{
 
 #how-it-works {
   color: white;
-  background: url('../img/monster-leaves.jpg');
+  background: url('../img/monster-leaves.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -339,7 +339,7 @@ footer h2 em{
 
 #services {
   color: white;
-  background: url('../img/monster-leaves.jpg');
+  background: url('../img/monster-leaves.png');
   background-size: cover;
   background-position: center;
   display: flex;
